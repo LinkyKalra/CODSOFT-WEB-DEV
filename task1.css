@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+  background-color: #121212;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header / Navbar */
+header {
+  background-color: #1f1f1f;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+/* Sections */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#home h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.start-button {
+  margin-top: 20px;
+}
+
+/* Cards */
+.card {
+  border: 1px solid #28a745;
+  background-color: #1f1f1f;
+  color: white;
+  transition: transform 0.3s ease;
+  min-height: 300px;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card h5 {
+  margin-top: 15px;
+  font-size: 1.25rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+}
+
+/* Progress Bars */
+.progress {
+  height: 20px;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  font-size: 0.85rem;
+}
+
+/* Contact Form */
+#contact input,
+#contact textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2a2a2a;
+  color: white;
+}
+
+#contact button {
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  padding: 20px 0;
+  background-color: #1f1f1f;
+  text-align: center;
+  font-size: 0.9rem;
+}

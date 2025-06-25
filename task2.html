@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Linky Kalra - Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        header .navbar {
+            background-color: #1f1f1f;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+
+        section {
+            padding: 60px 20px;
+        }
+
+        h1 {
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        p,
+        h5 {
+            text-align: center;
+        }
+
+        .card {
+            background-color: #1e1e1e;
+            border: 1px solid #28a745;
+            border-radius: 10px;
+            padding: 25px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            background-color: #252525;
+            transform: translateY(-5px);
+        }
+
+        .progress-bar {
+            background-color: #28a745;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            margin: 10px 0;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            background-color: #2c2c2c;
+            color: white;
+        }
+
+        input::placeholder,
+        textarea::placeholder {
+            color: #bbb;
+        }
+
+        button.submit {
+            margin-top: 15px;
+            background-color: transparent;
+            border: 1px solid #28a745;
+            color: #28a745;
+            transition: all 0.3s;
+        }
+
+        button.submit:hover {
+            background-color: #28a745;
+            color: #fff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f1f1f;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+            <div class="container-fluid">
+                <h1 class="logo text-white">Linky Kalra</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-3"><a class="nav-link active" href="#home">Home</a></li>
+                        <li class="nav-item px-3"><a class="nav-link" href="#about">About Us</a></li>
+                        <li class="nav-item px-3"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to <strong>Linky Kalra</strong>'s Landing Page</h1>
+        <p>
+            This is my very first task in the CodSoft Web Development Internship.<br>
+            Batch: June 2025 • Level 1 – Task 1 • Developed by Linky Kalra
+        </p>
+        <div class="text-center mt-4">
+            <a href="#about" class="btn btn-outline-success btn-lg">Get Started</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1>About Us</h1>
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card text-white">
+                        <h4>About Me</h4>
+                        <p>Student, HCST MATHURA</p>
+                        <p><strong>Skills:</strong> HTML5, CSS3, JavaScript ES6, Bootstrap 5, jQuery, Git & GitHub</p>
+                        <div class="progress mb-2">
+                            <div class="progress-bar" style="width: 90%">90%</div>
+                        </div>
+                        <small>Proficiency Level: 4/5</small>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-white">
+                        <h4>CodSoft</h4>
+                        <p>CodSoft is a leading provider of IT Business Solutions and full life-cycle professional services in both commercial and government sectors.</p>
+                        <div class="progress mb-2">
+                            <div class="progress-bar" style="width: 95%">95%</div>
+                        </div>
+                        <small>Internship Partner</small>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-white">
+                        <h4>Internship Details</h4>
+                        <p>Batch: June 2025<br>Task 1: Landing Page<br>Level 1 Web Development Internship</p>
+                        <div class="progress mb-2">
+                            <div class="progress-bar" style="width: 50%">50%</div>
+                        </div>
+                        <small>Progress: Ongoing</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="submit btn btn-outline-success">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Linky Kalra. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
